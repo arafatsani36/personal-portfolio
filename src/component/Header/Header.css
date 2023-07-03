@@ -1,0 +1,18 @@
+.dropdown {
+    color: #fff;
+}
+.nav-item{
+  background-color: rgb(255, 255, 255);
+   color: black;
+}
+.nav-item a:hover{
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 1, 1);
+}
+.nav-item2{
+    background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+}
+.nav-item2 a:hover{
+   color: rgb(255, 1, 1);
+}
