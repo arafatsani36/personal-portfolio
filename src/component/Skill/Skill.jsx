@@ -1,5 +1,8 @@
 import 'react-circular-progressbar/dist/styles.css';
 import './Skill.css'
+import Marquee from "react-fast-marquee";
+import html from '../../assets/html.png'
+import css from '../../assets/css.png'
 
 
 const Skill = () => {
@@ -7,10 +10,14 @@ const Skill = () => {
         <div id='skill' className='mt-20'>
         
         <h2 className=' text-3xl font-bold primary-text-color text-center'>My <span className='secendare-text-color'>Skill</span></h2>
+
+        <Marquee>
+            
+        </Marquee>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div data-aos="fade-right">
-            <h2 className=' text-center text-lg font-bold mt-10 primary-text-color'>Client Side</h2>
+            <h2 className=' text-center text-lg font-bold mt-5 md:mt-10 lg:mt-10 primary-text-color'>Expertise</h2>
             <div className='progressbar'>
                 <span className='title'>HTML</span>
                 <div className='skill-bar'>
@@ -55,21 +62,54 @@ const Skill = () => {
                     </span>
                 </div>
             </div>
+  
+        </div>
 
+
+        <div>
+            <h2 className=' text-center text-lg font-bold mt-2 md:mt-10 lg:mt-10 primary-text-color'>Comfortable</h2>
             <div className='progressbar'>
                 <span className='title'>REACT</span>
                 <div className='skill-bar'>
                     <span className='skill-per react'>
+                        <span className='tooltip'>80%</span>
+                    </span>
+                </div>
+            </div> 
+            <div className='progressbar'>
+                <span className='title'>FIREBASE</span>
+                <div className='skill-bar'>
+                    <span className='skill-per firebase'>
                         <span className='tooltip'>70%</span>
                     </span>
                 </div>
             </div>
+
+            <div className='progressbar'>
+                <span className='title'>MONGODB</span>
+                <div className='skill-bar'>
+                    <span className='skill-per mongodb'>
+                        <span className='tooltip'>70%</span>
+                    </span>
+                </div>
+            </div>
+            
         </div>
 
+
+
         <div>
-            <h2 className=' text-center text-lg font-bold mt-10 primary-text-color'>Server Side</h2>
+            <h2 className=' text-center text-lg font-bold mt-2 md:mt-10 lg:mt-10 primary-text-color'>Familiar</h2>
             <div className='progressbar'>
-                <span className='title'>FIREBASE</span>
+                <span className='title'>Node.js</span>
+                <div className='skill-bar'>
+                    <span className='skill-per react'>
+                        <span className='tooltip'>50%</span>
+                    </span>
+                </div>
+            </div> 
+            <div className='progressbar'>
+                <span className='title'>Express.js</span>
                 <div className='skill-bar'>
                     <span className='skill-per firebase'>
                         <span className='tooltip'>50%</span>
@@ -78,7 +118,7 @@ const Skill = () => {
             </div>
 
             <div className='progressbar'>
-                <span className='title'>MONGODB</span>
+                <span className='title'>Next.Js</span>
                 <div className='skill-bar'>
                     <span className='skill-per mongodb'>
                         <span className='tooltip'>50%</span>
@@ -88,8 +128,10 @@ const Skill = () => {
             
         </div>
 
+
+
         <div data-aos="fade-left">
-            <h2 className=' text-center text-lg font-bold mt-10 primary-text-color'>Tools</h2>
+            <h2 className=' text-center text-lg font-bold mt-2 md:mt-10 lg:mt-10 primary-text-color'>Tools</h2>
             <div className='progressbar'>
                 <span className='title'>Figma</span>
                 <div className='skill-bar'>

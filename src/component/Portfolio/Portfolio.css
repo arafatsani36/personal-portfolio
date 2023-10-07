@@ -1,4 +1,45 @@
 
+.portfolio-container{
+     width: 100%;
+   
+
+
+}
+.portfolio-container .box{
+    width: 100%;
+    height: 250px;
+    background: #000;
+     transition: ease-in-out 8s;
+     background-position: top;
+    
+
+} 
+.portfolio-container .box:hover{
+     background-position: bottom;
+    
+} 
+.portfolio-container .box.box1{
+   background: url(../../assets/job-linker.png);
+   /* width: 100%; */
+   background-size: cover;
+}
+.portfolio-container .box.box2{
+    background: url(../../assets/toy-sports-car.png);
+    /* width: 100%; */
+    background-size: cover;
+ }
+ .portfolio-container .box.box3{
+    background: url(../../assets/simplehired.png);
+    /* width: 100%; */
+    background-size: cover;
+ }
+.portfolio-container .box:hover{
+    background-position: bottom;
+    cursor: pointer;
+   
+} 
+
+
 .project-link {
    margin-top: 10px;
      

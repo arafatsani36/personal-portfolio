@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import resume from '../../assets/Black White Simple Professional Marketing Manager Resume.pdf';
+import resume from '../../assets/JakariahHossainSani-Resume.pdf';
 import './Header.css'
 
 

@@ -11,7 +11,7 @@ const About = () => {
             </div>
             <div>
                 <h2 className='secendare-text-color font-bold text-xl text-center my-3'>FRONT-END WEB DEVELOPER</h2>
-                <p className='primary-text-color text-base text-center my-3 about-description'>I am a passionate and dedication junior front-end web developer witha strong foundation in HTML, CSS, BOOTSTRAP, TAILWIND CSS, JAVASCRIPT, REACT For backend side.</p>
+                <p className='primary-text-color text-base text-center my-3 about-description'>I am a passionate and dedicated junior front-end web developer with a strong foundation in HTML, CSS, BOOTSTRAP, TAILWIND CSS, and JAVASCRIPT. I have experience working with teams. And my main goal is to successfully contribute to a team.</p>
             </div>
         </div>
     );

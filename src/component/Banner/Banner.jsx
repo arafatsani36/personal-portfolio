@@ -2,13 +2,14 @@ import banner from '../../assets/banner.jpg'
 import './Banner.css'
 import { TypeAnimation } from 'react-type-animation';
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaTwitter, FaGithub} from "react-icons/fa";
+import { MdOutlineWavingHand } from "react-icons/md";
 const Banner = () => {
    
     return (
            
                 <div className='grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:justify-between py-5'>
                 <div className='content'>
-                    <h4 className='primary-text-color text-2xl font-semibold mb-2'>Hello It's Me</h4>
+                    <h4 className='primary-text-color text-2xl font-semibold mb-2 flex items-center'>Hello It's Me <MdOutlineWavingHand className='ml-2'></MdOutlineWavingHand></h4>
                     <h2 className='primary-text-color text-4xl font-bold mb-4'>JAKARIA HOSSAIN SANI</h2>
                     <p className='primary-text-color'>I'm a <span className="secendare-text-color text-sm"><TypeAnimation
                     sequence={[
